@@ -12,7 +12,7 @@
         <!-- Scrolling Nav JavaScript y Posteo AJAX -->
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
-	
+	<script src="js/request_mail.js"></script> 
 
 	<link rel="shortcut icon" href="imagenes/favIcon.png" type="image/png">
 	<title>Pekes Eventos</title> 
@@ -35,7 +35,7 @@
 	      <ul class="nav navbar-nav navbar-left">
 	        <li class="navButt"><a class="page-scroll" href="#inicio">Inicio</a></li>
 			<span class="btn-separator"></span>
-			<li class="navButt"><a class="page-scroll" href="#servicios">Servicios</a></li>
+			<li class="navButt"><a class="page-scroll" href="#servicios">¿Qué ofrecemos?</a></li>
 			<span class="btn-separator"></span>
 			<li class="navButt"><a  class="page-scroll" href="#galeria">Galeria</a></li> 
 			<span class="btn-separator"></span>
@@ -257,15 +257,14 @@
 
 <!-- **************** CONTACTO *************** -->
 <section id="contacto">
+	<h1 class="section3" align="center">Contacto</h1>
 	<div class="container-fluid section4"  align="center">
-		
-		<h1 class="section3"> Contacto</h1>
 		<br><br><br>
 		<div class="container">
             
 			<div class="row">
                 <div class="col-sm-6 text-center">
-					<form>
+					<form id="contact-form" method="post" action="send.php" role="form"> 
 						<div class="input-group">
 							<input type="text" class="form-control" placeholder="Nombre" aria-describedby="basic-addon1" id="nombre">
 						</div>
