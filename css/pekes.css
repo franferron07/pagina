@@ -1,4 +1,16 @@
 
+
+
+#inicio , #servicios, #galeria, #promociones  {
+  margin-bottom: -70px;
+  padding-top: 70px;
+}
+
+#contacto{
+	padding-top: 70px;
+	
+}
+
 .navContainer{
     background:white;
     padding: 0px 90px 0px 90px ;
@@ -78,9 +90,25 @@
 }
 
 .navImgPeke{
-	max-width:100px;
-	height:80px;
+/*	max-width:100px;
+	height:80px;*/
+	
+/*	height:400%;
+	max-height:75px;
+	width:85%;
+	max-width:100px; 
 	margin-top:-12px;
+	*/
+	
+	position:absolute;
+       left:1%;
+       top:10%;
+       margin: 0px;
+       padding: 0; max-height:75px;
+       border: 1px yellow;
+       border-bottom: none;
+      width:5%;height:90%;
+       z-index:9999;
 }
 
 h1{
@@ -92,13 +120,10 @@ h1{
 }	
 	
 .section2{
-    /* background-color:#4FD0FF        #1a9eca */
-	background: #06beb6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #26c6da;
     font-family: 'Irish Grover', cursive;
     color:white;
-    padding: 35px;
+    padding: 5%;
 }
 
 .section3{
@@ -116,7 +141,7 @@ h1{
 
 
 .section5{
-    background-color:#FF7D19/* #FF6F00*/;
+    background-color:#FF7D19;
     font-family: 'Irish Grover', cursive;
     color:white;
     padding: 35px 25px 35px 25px;
@@ -130,9 +155,7 @@ h1{
 }
 
 .headerBox{
-    background: #06beb6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #26c6da;
     padding:15px;
 }
 
@@ -153,11 +176,7 @@ h1{
     margin-bottom: -10px;
 }
 
-.imgA{
-  object-fit: cover;
-  width: 350px;
-  height: 350px;
-}
+
 .btnDiv{
     margin:auto;
 }
@@ -317,16 +336,43 @@ hr {
   transition: 0.4s ease;
 }
 
+
+.imgB{
+  position: absolute;
+  height: 90%;
+  width: 70%;
+  top:20%;
+  left: 0;
+-webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+
+
 .mosaic:hover .imgA {
   -webkit-transform: scale(1.08);
   transform: scale(1.15);
 }
 
 
+.mosaic:hover .imgB {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.15);
+}
+
 
 .img-der{
   object-fit: cover;
-  width: 400px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
 }
+
+
+
+.mapGoogle{
+    width: 100%;
+    height: 400px;
+	
+}
+
 
